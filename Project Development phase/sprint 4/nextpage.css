@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:250&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+.wrapper{
+	background: url(https://www.communityaccessnetwork.org/wp-content/uploads/2021/03/Blog_DonatingBlood_1-1024x732.jpg) no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+}
+.wrapper .center{
+	position: absolute;
+	left: 50%;
+	top: 55%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+}
+.center h1{
+	color: brown;
+	font-size: 70px;
+	width: 900px;
+	font-weight: bold;
+	text-align: center;
+margin-top: 1px;
+}
+.center .buttons{
+	margin: 35px 280px;
+}
+.buttons button{
+	height: 50px;
+	width: 150px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #ffb3b3;
+	background: brown;
+	outline: none;
+	cursor: pointer;
+	border: 1px solid #cc0000;
+	border-radius: 25px;
+	transition: .4s;
+}
+.buttons .btn2{
+	margin-left: 25px;
+}
+.buttons button:hover{
+	background: #cc0000;
+}

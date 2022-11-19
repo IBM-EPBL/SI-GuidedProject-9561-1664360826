@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Plasma  Donor Application</title>
+	<link rel="stylesheet" href="nextpage.css">
+</head>
+<body>
+ <script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "3b214ae8-6eba-404e-85be-63772e4c2fef", // The ID of this integration.
+    region: "eu-gb", // The region your integration is hosted in.
+    serviceInstanceID: "3b4bf0dd-e329-4199-99b4-25f9ba1ee227", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+	<div class="wrapper">
+			<div class="center">
+			<h1>Welcome User</h1>
+			<div class="buttons">
+			
+<a href="Registrationdonor.html"><button>Register as Donor</button></a>
+<a href="Request.html"><button class="btn2">Request for Plasma</button></a>
+
+			
+		</div>
+		</div>
+</body>
+</html>

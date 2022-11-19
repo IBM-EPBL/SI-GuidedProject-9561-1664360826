@@ -1,0 +1,74 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+        background-image: url(https://www.cslbehring.com/-/media/shared/vita-2021/plasma-in-bottle.jpg?h=900&iar=0&w=1600&cropregion=0,0,1600,900&hash=203F8D0CE2047EA5106B2DBDC8D07F46);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100%,100%;
+        margin: 0;
+        padding: 0;
+
+}
+div.main{
+    width: 500px;
+    margin: 200px auto 0px auto;
+
+}
+h2{
+    text-align: center;
+    padding: 20px;
+    font-family: 'Courier New';
+    color: #fff;
+}
+div.register{
+text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    color: #fff;
+}
+form#register{
+    margin: 40px;
+
+}
+label{
+    font-family: 'Georgia';
+    font-size: 18px;
+    font-style: normal;
+    color: #ddd;
+
+}
+input#name{
+    width: 200px;
+    font-family: 'Georgia';
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: transparent;
+    box-shadow: inset 1px 1px 5px #fff;
+    color: #fff ;
+}
+input#submit{
+    width: 200px;
+    padding: 7px;
+    font-size: 16px;
+    font-family: 'Georgia';
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #fff;
+    box-shadow: inset 1px 1px 5px #fff;
+    margin-bottom: 20px;;
+}
+label,span,h2{
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}

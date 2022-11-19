@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login Form</title>
+<link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<script>
+    window.watsonAssistantChatOptions = {
+      integrationID: "3b214ae8-6eba-404e-85be-63772e4c2fef", // The ID of this integration.
+      region: "eu-gb", // The region your integration is hosted in.
+      serviceInstanceID: "3b4bf0dd-e329-4199-99b4-25f9ba1ee227", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+    setTimeout(function(){
+      const t=document.createElement('script');
+      t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+      document.head.appendChild(t);
+    });
+  </script>
+<body>
+<form action="{{ url_for('loginpage')}}"method="post">
+<div class="container">
+<div class="header">
+<h1>Login</h1>
+</div>
+<div class="main">
+<form>
+ <div class="login" > <div> 
+</div> 
+<!-- Main Input For Receiving Query to our ML -->  
+     <input type="text" name="user" placeholder="Enter UserName" required="required" style="color:black" /> 
+        <input type="password" name="passw" placeholder="Enter Password" required="required" style="color:black" /> 
+     <button type="submit" class="btn btn-primary btn-block btn-large">Login</button> </form><br><br>
+<div style="text-align: center;">
+                            <p>Don't have an account <a href="register.html">Register here</a>
+                        </div> 
+</div>
+</div>
+</body>
+</html>
